@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="walletHub_module.Wallethub_tests">
+        <methods>
+          <include name="verifyreviewinprofile"/>
+          <include name="initiatebrowser"/>
+        </methods>
+      </class> <!-- walletHub_module.Wallethub_tests -->
+      <class name="facebook_module.Facebooktests">
+        <methods>
+          <include name="VerifyLogin"/>
+          <include name="initiatebrowser"/>
+        </methods>
+      </class> <!-- facebook_module.Facebooktests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
