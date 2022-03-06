@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.fbnwhub.FbooknWhub.AppTest"/>
-      <class name="facebook_module.Facebooktests"/>
+            <class name="facebook_module.Facebooktests"/>
       <class name="walletHub_module.Wallethub_tests"/>
     </classes>
   </test> <!-- Test -->
